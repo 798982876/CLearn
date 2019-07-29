@@ -9,7 +9,7 @@ int* array;
 int getnum(int data)//获得位数
 {
     int i;
-    for (i=0;i<=4;i++)
+    for (i=0;i<=4;i++)//要仔细for循环的顺序和条件
     {   
         
         if(data%(int)pow(10,i)==data)//取余等于本身时
